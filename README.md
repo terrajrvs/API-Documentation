@@ -17,7 +17,7 @@ This document provides information about the Bookstore API Documentation, allowi
 # Table of Contents
 1. [Books](#1-books)
 2. [Endpoints](#endpoints) 
-3. [Get All Books]
+3. [Get All Books](#get-all-books)
 4. [Get Single Book by ID](#get-single-book-by-id)
 5. [Create a New Book](#create-a-new-book)
 6. [Update a Book](#update-a-book)
