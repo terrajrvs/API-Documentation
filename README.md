@@ -15,3 +15,18 @@ This document provides information about the Bookstore API Documentation, allowi
 + **Quality Assurance (QA) Engineers:** Professionals who verify and test the functionality of the API endpoints.
 ## Scope of the Document
 # Table of Contents
+[Books](#1-books)
+[Endpoints](#endpoints) 
+Get All Books
+Get Single Book by ID
+Create a New Book
+Update a Book
+Delete a Book
+Shopping Cart
+Get Cart
+Add Book to Cart
+Delete Book from Cart
+Add Book to Cart
+Checkout
+Error Response
+Rate Limiting
