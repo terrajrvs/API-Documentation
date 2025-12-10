@@ -33,11 +33,11 @@ This document provides information about the Bookstore API Documentation, allowi
 # Endpoints
 ## Books
 ### Get All Books
-+ URL: /books
-+ Method: GET
-+ Description: Retrieve list of available books.
-+ Query Parameters:
-- page: (optional) Page number for pagination (default: 1)
-- limit: (optional) Number of books per page (default: 10)
-- genre: (optional) Filter by book genre (e.g., fiction, non-fiction, mystery)
-- author: (optional) Filter by author name
+- URL: /books
+- Method: GET
+- Description: Retrieve list of available books.
+- Query Parameters:
+  - page: (optional) Page number for pagination (default: 1)
+  - limit: (optional) Number of books per page (default: 10)
+  - genre: (optional) Filter by book genre (e.g., fiction, non-fiction, mystery)
+  - author: (optional) Filter by author name
