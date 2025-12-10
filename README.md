@@ -9,7 +9,7 @@ Account YOUR_API_KEY
 # Introduction to the Document
 This document provides information about the Bookstore API Documentation, allowing developers to integrate applications with the Bookstore system. The API gives access to book listings, customer orders, user accounts, reviews, Used Book Management, Publisher/Distributor Inegration, Event Management, and payment processing. This user guide highlights the available endpoints, authentication methods, request/response formats, and error handling.
 # Intended Audience
--**Software Developers:** Developers integrating the Bookstore API into their applications for tasks such as fetching book data, managing orders, and handling user accounts.
--**Technical Writers:** Documentation writers maintaining and updating the API documentation.
--**API Consumers:** External clients or teams that wish to leverage the Bookstore API for e-commerce or data-related purposes.
--**Quality Assurance (QA) Engineers:** Professionals who verify and test the functionality of the API endpoints.
++**Software Developers:** Developers integrating the Bookstore API into their applications for tasks such as fetching book data, managing orders, and handling user accounts.
++**Technical Writers:** Documentation writers maintaining and updating the API documentation.
++**API Consumers:** External clients or teams that wish to leverage the Bookstore API for e-commerce or data-related purposes.
++**Quality Assurance (QA) Engineers:** Professionals who verify and test the functionality of the API endpoints.
