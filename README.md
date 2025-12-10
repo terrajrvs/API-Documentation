@@ -17,16 +17,16 @@ This document provides information about the Bookstore API Documentation, allowi
 # Table of Contents
 1. [Books](#1-books)
 2. [Endpoints](#endpoints) 
-Get All Books
-Get Single Book by ID
-Create a New Book
-Update a Book
-Delete a Book
-Shopping Cart
-Get Cart
-Add Book to Cart
-Delete Book from Cart
-Add Book to Cart
-Checkout
-Error Response
-Rate Limiting
+3. [Get All Books]
+4. [Get Single Book by ID](#get-single-book-by-id)
+5. [Create a New Book](#create-a-new-book)
+6. [Update a Book](#update-a-book)
+7. [Delete a Book](#delete-a-book)
+8. [Shopping Cart](#shopping-cart)
+9. [Get Cart](#get-cart)
+10. [Add Book to Cart](#add-a-book-to-cart)
+11. [Delete Book from Cart](#delete-a-book-from-cart)
+12. [Add Book to Cart](#add-a-book-to-cart)
+13. [Checkout](#checkout)
+14. [Error Response](#error-response)
+16. [Rate Limiting](#rate-limiting)
