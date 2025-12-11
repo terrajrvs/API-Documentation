@@ -441,17 +441,17 @@ This is how the checkout call is made.
     {
     "payment_method": "credit_card",
     "address": {
-        "line1": "123 Main St",
-        "city": "Springfield",
-        "state": "IL",
-        "postal_code": "62701"
+        "line1": "2222 First Ave.",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10013"
     }
     }
     ```
     | Sr No | Key         | Value                                       | Description                                                                 |
     |-------|-------------|---------------------------------------------|-----------------------------------------------------------------------------|
     | 1     | payment_method | credit_card                              | Payment method. Must be a valid payment method (e.g., credit_card, PayPal). |
-    | 2     | address     | {"line1": "123 Main St", "city": "Springfield", "state": "IL", "postal_code": "62701"} | Shipping address. Each field must follow respective formats (e.g., postal_code must be valid). |
+    | 2     | address     | {"line1": "2222 First Ave.", "city": "New York", "state": "NY", "postal_code": "10013"} | Shipping address. Each field must follow respective formats (e.g., postal_code must be valid). |
 
 
 - **Response:**
@@ -459,7 +459,7 @@ This is how the checkout call is made.
     ```json
     {
     "message": "Purchase completed successfully.",
-    "order_id": 12345,
+    "order_id": 1010101,
     "total_amount": 36.97
     }
     ```
