@@ -51,23 +51,23 @@ This document provides information about the Bookstore API Documentation, allowi
     "books": [
         {
         "id": 1,
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "genre": "Fiction",
-        "price": 10.99,
-        "stock": 20,
-        "description": "A novel set in the 1920s about the mysterious Jay Gatsby.",
-        "cover_image": "https://example.com/images/gatsby.jpg"
+        "title": "My Inventions: The Autobiography of Nikola Tesla",
+        "author": "Nikola Tesla",
+        "genre": "Non-Fiction",
+        "price": 19.95,
+        "stock": 37,
+        "description": "My Inventions: The Autobiography of Nikola Tesla is a firsthand account of the inventor's life, written at age 63, detailing his early life, creative process, and major inventions like the AC electrical system, radio, and wireless power transmission.",
+        "cover_image": "[https://example.com/images/gatsby.jpg](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)"
         },
         {
         "id": 2,
-        "title": "1984",
-        "author": "George Orwell",
-        "genre": "Dystopian",
+        "title": "1919",
+        "author": "Nikola Tesla",
+        "genre": "Autobiography and Science & Technology Nonfiction.",
         "price": 12.99,
         "stock": 15,
-        "description": "A dystopian novel about a totalitarian regime.",
-        "cover_image": "https://example.com/images/1984.jpg"
+        "description": "Autobiography and Science & Technology Nonfiction.",
+        "cover_image": "[https://example.com/images/1984.jpg](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)"
         }
     ]
     }
@@ -80,10 +80,10 @@ This document provides information about the Bookstore API Documentation, allowi
     | 2     | limit                  | 10                                                         | The limit on the number of items (books) per page. Positive integer, typically between 1 and 100. |
     | 3     | total_books            | 100                                                        | Total number of books available. Must be a positive integer (e.g., 100).                          |
     | 4     | books[0].id            | 1                                                          | Unique identifier for the book. Positive integer. E.g., 1, 2, etc. Must be ≤ total_books.         |
-    | 5     | books[0].title         | "The Great Gatsby"                                         | Title of the book. String with a max of 255 characters. Example: "The Great Gatsby".              |
-    | 6     | books[0].author        | "F. Scott Fitzgerald"                                      | Author of the book. String with a max of 150 characters. Example: "F. Scott Fitzgerald".          |
-    | 7     | books[0].genre         | "Fiction"                                                 | Genre of the book. String with a max of 50 characters. Example: "Fiction".                        |
-    | 8     | books[0].price         | 10.99                                                      | Price of the book. Decimal number with up to 2 decimal places. Must be positive. Example: 10.99.   |
+    | 5     | books[0].title         | "My Inventions: The Autobiography of Nikola Tesla"                                         | Title of the book. String with a max of 255 characters. Example: "My Inventions: The Autobiography of Nikola Tesla".              |
+    | 6     | books[0].author        | "Nikola Tesla"                                      | Author of the book. String with a max of 150 characters. Example: "Nicola Tesla".          |
+    | 7     | books[0].genre         | "Non-Fiction"                                                 | Genre of the book. String with a max of 50 characters. Example: "Non-Fiction".                        |
+    | 8     | books[0].price         | 19.95                                                      | Price of the book. Decimal number with up to 2 decimal places. Must be positive. Example: 10.99.   |
     | 9     | books[0].stock         | 20                                                         | Number of copies in stock. Positive integer. Example: 20. Must be ≥ 0.                            |
     | 10    | books[0].description   | "A novel set in the 1920s about the mysterious Jay Gatsby." | Description of the book. String with a max of 500 characters. Example: "A novel set in the 1920s...". |
     | 11    | books[0].cover_image   | "https://example.com/images/gatsby.jpg"                    | URL of the book's cover image. Must be a valid URL. Example: "https://example.com/images/gatsby.jpg". |
@@ -124,23 +124,23 @@ This document provides information about the Bookstore API Documentation, allowi
     ```json
     {
     "id": 1,
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "genre": "Fiction",
-    "price": 10.99,
-    "stock": 20,
-    "description": "A novel set in the 1920s about the mysterious Jay Gatsby.",
+    "title": "My Inventions: The Autobiography of Nikola Tesla",
+    "author": "Nikola Tesla",
+    "genre": "Non-Fiction",
+    "price": 19.95,
+    "stock": 37,
+    "description": "Nikola Tesla's own writings fall under Autobiography and Science & Technology Nonfiction.",
     "cover_image": "https://example.com/images/gatsby.jpg",
     "reviews": [
         {
         "user": "john_doe",
         "rating": 5,
-        "comment": "One of the greatest books of all time."
+        "comment": "His core autobiographical work, detailing his early life, education, and breakthroughs in AC power, the Tesla coil, and wireless technology, revealing his visionary mindset."
         },
         {
         "user": "jane_doe",
         "rating": 4,
-        "comment": "Great story, but the ending was a bit abrupt."
+        "comment": "He explains complex concepts like alternating current (AC) systems, wireless energy transmission, and high-frequency currents, providing primary source material for science history."
         }
     ]
     }
@@ -149,10 +149,10 @@ This document provides information about the Bookstore API Documentation, allowi
     | Sr No | Key         | Value                                       | Description                                                                 |
     |-------|-------------|---------------------------------------------|-----------------------------------------------------------------------------|
     | 1     | id          | 1                                           | Unique identifier for the book. Must be a positive integer.                 |
-    | 2     | title       | The Great Gatsby                            | Title of the book. Max 255 characters.                                      |
-    | 3     | author      | F. Scott Fitzgerald                         | Author’s name. Max 100 characters.                                          |
-    | 4     | genre       | Fiction                                     | Genre of the book. Should be a valid genre type.                            |
-    | 5     | price       | 10.99                                       | Price of the book. Must be a positive decimal, max two decimal places.      |
+    | 2     | title       | My Inventions: The Autobiography of Nikola Tesla | Title of the book. Max 255 characters.                                      |
+    | 3     | author      | Nikola Tesla                    | Author’s name. Max 100 characters.                                          |
+    | 4     | genre       | Non-Fiction                                     | Genre of the book. Should be a valid genre type.                            |
+    | 5     | price       | 19.95                                       | Price of the book. Must be a positive decimal, max two decimal places.      |
 
 
 #### Create a New Book
@@ -243,23 +243,23 @@ This document provides information about the Bookstore API Documentation, allowi
     ```json
     {
     "id": 1,
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "genre": "Fiction",
-    "price": 9.99,
-    "stock": 30,
-    "description": "Updated description of the book.",
-    "cover_image": "https://example.com/images/gatsby.jpg"
+    "title": "My Inventions: The Autobiography of Nikola Tesla",
+    "author": "Nikola Tesla",
+    "genre": "Non-Fiction",
+    "price": 19.95,
+    "stock": 37,
+    "description": "He explains complex concepts like alternating current (AC) systems, wireless energy transmission, and high-frequency currents, providing primary source material for science history.",
+    "cover_image": "[[https://example.com/images/gatsby.jpg](https://www.audible.com/pd/My-Inventions-Audiobook/B077RHCZX1?ipRedirectOverride=true&overrideBaseCountry=true&bp_o=true&language=en_US&source_code=GPAPP30DTRIAL5480813240005&gclsrc=aw.ds&gad_source=1&gad_campaignid=20983884474&gclid=CjwKCAiA0eTJBhBaEiwA-Pa-hTy_b4oFbIj9apyiLVchGX685ZX8x-ZvrxQoMlj4w7f03HuiLABlIRoCYEkQAvD_BwE)](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)"
     }
     ```
 
     | Sr No | Key         | Value                                       | Description                                                                 |
     |-------|-------------|---------------------------------------------|-----------------------------------------------------------------------------|
     | 1     | id          | 1                                           | Unique identifier for the book. Must be a positive integer.                 |
-    | 2     | title       | The Great Gatsby                            | Title of the book. Max 255 characters.                                      |
-    | 3     | author      | F. Scott Fitzgerald                         | Author’s name. Max 100 characters.                                          |
-    | 4     | genre       | Fiction                                     | Genre of the book. Should be a valid genre type.                            |
-    | 5     | price       | 9.99                                        | Updated price of the book. Positive decimal, max two decimal places.        |
+    | 2     | title       | My Inventions: The Autobiography of Nikola Tesla | Title of the book. Max 255 characters.                                      |
+    | 3     | author      | Nikola Tesla                         | Author’s name. Max 100 characters.                                          |
+    | 4     | genre       | Non-Fiction                                     | Genre of the book. Should be a valid genre type.                            |
+    | 5     | price       | 99.95                                        | Updated price of the book. Positive decimal, max two decimal places.        |
 
 
 #### Delete a Book
@@ -303,25 +303,25 @@ This document provides information about the Bookstore API Documentation, allowi
     "cart": [
         {
         "book_id": 1,
-        "title": "The Great Gatsby",
+        "title": "My Inventions: The Autobiography of Nikola Tesla",
         "quantity": 1,
-        "price": 10.99
+        "price": 19.95
         },
         {
         "book_id": 2,
         "title": "1984",
         "quantity": 2,
-        "price": 12.99
+        "price": 39.90
         }
     ],
-    "total": 36.97
+    "total": 39.90
     }
     ```
 
     | Sr No | Key         | Value                                       | Description                                                                 |
     |-------|-------------|---------------------------------------------|-----------------------------------------------------------------------------|
-    | 1     | cart        | [{"book_id": 1, "title": "The Great Gatsby", "quantity": 1, "price": 10.99}, {"book_id": 2, "title": "1984", "quantity": 2, "price": 12.99}] | List of books in the cart. Each entry contains book_id, title, quantity, and price.|
-    | 2     | total       | 36.97                                       | Total amount for all items in the cart. Calculated based on quantity and price. Must be a positive decimal.      |
+    | 1     | cart        | [{"book_id": 1, "title": "My Inventions: The Autobiography of Nikola Tesla", "quantity": 1, "price": 19.95}, {"book_id": 2, "title": "1919", "quantity": 2, "price": 39.90}] | List of books in the cart. Each entry contains book_id, title, quantity, and price.|
+    | 2     | total       | 39.90                                       | Total amount for all items in the cart. Calculated based on quantity and price. Must be a positive decimal.      |
 
 
 #### Add Book to Cart
