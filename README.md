@@ -57,17 +57,17 @@ This document provides information about the Bookstore API Documentation, allowi
         "price": 19.95,
         "stock": 37,
         "description": "My Inventions: The Autobiography of Nikola Tesla is a firsthand account of the inventor's life, written at age 63, detailing his early life, creative process, and major inventions like the AC electrical system, radio, and wireless power transmission.",
-        "cover_image": "[https://example.com/images/gatsby.jpg](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)"
+        "cover_image": "[https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology]"
         },
         {
         "id": 2,
         "title": "1919",
         "author": "Nikola Tesla",
         "genre": "Autobiography and Science & Technology Nonfiction.",
-        "price": 12.99,
+        "price": 19.95,
         "stock": 15,
         "description": "Autobiography and Science & Technology Nonfiction.",
-        "cover_image": "[https://example.com/images/1984.jpg](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)"
+        "cover_image": "[[https://example.com/images/1919.jpg](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology))"
         }
     ]
     }
@@ -85,16 +85,18 @@ This document provides information about the Bookstore API Documentation, allowi
     | 7     | books[0].genre         | "Non-Fiction"                                                 | Genre of the book. String with a max of 50 characters. Example: "Non-Fiction".                        |
     | 8     | books[0].price         | 19.95                                                      | Price of the book. Decimal number with up to 2 decimal places. Must be positive. Example: 10.99.   |
     | 9     | books[0].stock         | 20                                                         | Number of copies in stock. Positive integer. Example: 20. Must be ≥ 0.                            |
-    | 10    | books[0].description   | "A novel set in the 1920s about the mysterious Jay Gatsby." | Description of the book. String with a max of 500 characters. Example: "A novel set in the 1920s...". |
-    | 11    | books[0].cover_image   | "https://example.com/images/gatsby.jpg"                    | URL of the book's cover image. Must be a valid URL. Example: "https://example.com/images/gatsby.jpg". |
+    | 10    | books[0].description   | "The fascinating autobiography of the legendary inventor behind the radio, wireless energy, robotics, and much more.
+" | Description of the book. String with a max of 500 characters. Example: "A novel set in the 1920s...". |
+    | 11    | books[0].cover_image   | "[https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)"                    | URL of the book's cover image. Must be a valid URL. Example: "[https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)". |
     | 12    | books[1].id            | 2                                                          | Unique identifier for the second book. Positive integer. Example: 2. Must be ≤ total_books.       |
-    | 13    | books[1].title         | "1984"                                                    | Title of the book. String with a max of 255 characters. Example: "1984".                          |
+    | 13    | books[1].title         | "1919"                                                    | Title of the book. String with a max of 255 characters. Example: "1919".                          |
     | 14    | books[1].author        | "George Orwell"                                            | Author of the book. String with a max of 150 characters. Example: "George Orwell".                |
-    | 15    | books[1].genre         | "Dystopian"                                               | Genre of the book. String with a max of 50 characters. Example: "Dystopian".                      |
-    | 16    | books[1].price         | 12.99                                                      | Price of the book. Decimal number with up to 2 decimal places. Must be positive. Example: 12.99.  |
+    | 15    | books[1].genre         | "Autobiography"                                               | Genre of the book. String with a max of 50 characters. Example: "Autobiography".                      |
+    | 16    | books[1].price         | 19.95                                                      | Price of the book. Decimal number with up to 2 decimal places. Must be positive. Example: 19.95.  |
     | 17    | books[1].stock         | 15                                                         | Number of copies in stock. Positive integer. Example: 15. Must be ≥ 0.                            |
-    | 18    | books[1].description   | "A dystopian novel about a totalitarian regime."            | Description of the book. String with a max of 500 characters. Example: "A dystopian novel...".     |
-    | 19    | books[1].cover_image   | "https://example.com/images/1984.jpg"                      | URL of the book's cover image. Must be a valid URL. Example: "https://example.com/images/1984.jpg". |
+    | 18    | books[1].description   | "The fascinating autobiography of the legendary inventor behind the radio, wireless energy, robotics, and much more.
+"            | Description of the book. String with a max of 500 characters. Example: "The fascinating autobiography of the legendary inventor behind the radio, wireless energy, robotics, and much more."     |
+    | 19    | books[1].cover_image   | "[https://example.com/images/1919.jpg](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)"                      | URL of the book's cover image. Must be a valid URL. Example: "[https://example.com/images/1919.jpg](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)". |
 
     
     **Notes:**
@@ -130,7 +132,7 @@ This document provides information about the Bookstore API Documentation, allowi
     "price": 19.95,
     "stock": 37,
     "description": "Nikola Tesla's own writings fall under Autobiography and Science & Technology Nonfiction.",
-    "cover_image": "https://example.com/images/gatsby.jpg",
+    "cover_image": "[https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)",
     "reviews": [
         {
         "user": "john_doe",
@@ -249,7 +251,7 @@ This document provides information about the Bookstore API Documentation, allowi
     "price": 19.95,
     "stock": 37,
     "description": "He explains complex concepts like alternating current (AC) systems, wireless energy transmission, and high-frequency currents, providing primary source material for science history.",
-    "cover_image": "[[https://example.com/images/gatsby.jpg](https://www.audible.com/pd/My-Inventions-Audiobook/B077RHCZX1?ipRedirectOverride=true&overrideBaseCountry=true&bp_o=true&language=en_US&source_code=GPAPP30DTRIAL5480813240005&gclsrc=aw.ds&gad_source=1&gad_campaignid=20983884474&gclid=CjwKCAiA0eTJBhBaEiwA-Pa-hTy_b4oFbIj9apyiLVchGX685ZX8x-ZvrxQoMlj4w7f03HuiLABlIRoCYEkQAvD_BwE)](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)"
+    "cover_image": "[https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology"
     }
     ```
 
@@ -309,7 +311,7 @@ This document provides information about the Bookstore API Documentation, allowi
         },
         {
         "book_id": 2,
-        "title": "1984",
+        "title": "1919",
         "quantity": 2,
         "price": 39.90
         }
