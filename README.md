@@ -87,7 +87,7 @@ This document provides information about the Bookstore API Documentation, allowi
     | 9     | books[0].stock         | 20                                                         | Number of copies in stock. Positive integer. Example: 20. Must be ≥ 0.                            |
     | 10    | books[0].description   | "The fascinating autobiography of the legendary inventor behind the radio, wireless energy, robotics, and much more.
 " | Description of the book. String with a max of 500 characters. Example: "A novel set in the 1920s...". |
-| 11    | books[0].cover_image   | "https://www.amazon.com/My-Inventions-Autobiography-Nikola-Tesla/dp/0910077002"         | URL of the book's cover image. Must be a valid URL. Example: "https://example.com/images/gatsby.jpg". |
+    | 11    | books[0].cover_image   | "https://www.amazon.com/My-Inventions-Autobiography-Nikola-Tesla/dp/0910077002"         | URL of the book's cover image. Must be a valid URL. Example: "https://example.com/images/gatsby.jpg". |
     | 12    | books[1].id            | 2                                                          | Unique identifier for the second book. Positive integer. Example: 2. Must be ≤ total_books.       |
     | 13    | books[1].title         | "1919"                                                    | Title of the book. String with a max of 255 characters. Example: "1919".                          |
     | 14    | books[1].author        | "Nikola Tesla"                                            | Author of the book. String with a max of 150 characters. Example: "Nikola Tesla".                |
