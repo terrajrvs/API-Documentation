@@ -460,15 +460,15 @@ This is how the checkout call is made.
     {
     "message": "Purchase completed successfully.",
     "order_id": 1010101,
-    "total_amount": 36.97
+    "total_amount": 39.90
     }
     ```
 
     | Sr No | Key         | Value                                       | Description                                                                 |
     |-------|-------------|---------------------------------------------|-----------------------------------------------------------------------------|
     | 1     | message     | Purchase completed successfully.            | Confirmation message for successful purchase.                               |
-    | 2     | order_id    | 12345                                       | Unique order identifier. Must be a positive integer.                        |
-    | 3     | total_amount| 36.97                                       | Total amount for the order. Positive decimal, max two decimal places.       |
+    | 2     | order_id    | 1010101                                       | Unique order identifier. Must be a positive integer.                        |
+    | 3     | total_amount| 39.90                                       | Total amount for the order. Positive decimal, max two decimal places.       |
 
 
 ### Error Responses
