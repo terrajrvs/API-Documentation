@@ -99,15 +99,15 @@ This document provides information about the Bookstore API Documentation, allowi
     | 19    | books[1].cover_image   | "[https://example.com/images/1919.jpg](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)"                      | URL of the book's cover image. Must be a valid URL. Example: "[https://example.com/images/1919.jpg](https://www.penguinrandomhouse.com/books/308224/my-inventions-and-other-writings-by-nikola-tesla/#:~:text=Related%20Genres,Memoir%20Classic%20Nonfiction%20Science%20&%20Technology)". |
 
     
-    **Notes:**
+**Notes:**
 
-    - **Title:** The title field has a maximum length of 255 characters to accommodate longer book titles.
-    - **Author:** The author field allows for up to 150 characters.
-    - **Genre:** The genre field has a max of 50 characters to account for standard genre names.
-    - **Description:** Both book descriptions have a max of 500 characters, allowing a brief yet detailed summary.
-    - **Price:** Prices should be expressed as a decimal number with up to 2 decimal places (e.g., 10.99).
-    - **Stock:** The stock field is a positive integer (≥ 0).
-    - **Cover Image URL:** URLs for images must be valid and properly formatted.
+- **Title:** The title field has a maximum length of 255 characters to accommodate longer book titles.
+- **Author:** The author field allows for up to 150 characters.
+- **Genre:** The genre field has a max of 50 characters to account for standard genre names.
+- **Description:** Both book descriptions have a max of 500 characters, allowing a brief yet detailed summary.
+- **Price:** Prices should be expressed as a decimal number with up to 2 decimal places (e.g., 10.99).
+- **Stock:** The stock field is a positive integer (≥ 0).
+- **Cover Image URL:** URLs for images must be valid and properly formatted.
 
 #### Get Single Book by ID
 
