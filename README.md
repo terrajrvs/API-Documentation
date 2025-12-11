@@ -169,19 +169,21 @@ This document provides information about the Bookstore API Documentation, allowi
 
     ```json
     {
-    "title": "The Catcher in the Rye",
-    "author": "J.D. Salinger",
-    "genre": "Fiction",
-    "price": 8.99,
-    "stock": 25,
+    "title": "The Problem of Increasing Human Energy
+Book by Nikola Tesla
+",
+    "author": "Nikola Tesl",
+    "genre": "Non-Fiction",
+    "price": 19.95,
+    "stock": 10,
     "description": "A story about a young man’s journey of self-discovery.",
-    "cover_image": "https://example.com/images/catcher.jpg"
+    "cover_image": "[https://example.com/images/catcher.jpg](https://www.amazon.com/Problem-Increasing-Human-Energy-Harnessing/dp/1605200956#:~:text=Part%20philosophical%20ponderings%20on%20humanity's,unsung%20hero%20of%20scientific%20philosophy.)"
     }
     ```
 
     | Sr No | Key         | Value                                       | Description                                                                 |
     |-------|-------------|---------------------------------------------|-----------------------------------------------------------------------------|
-    | 1     | title       | The Catcher in the Rye                      | Title of the book. Max 255 characters.                                      |
+    | 1     | title       | The Problem of Increasing Human Energy Book by Nikola Tesla  | Title of the book. Max 255 characters.                                      |
     | 2     | author      | J.D. Salinger                               | Author’s name. Max 100 characters.                                          |
     | 3     | genre       | Fiction                                     | Genre of the book. Should be a valid genre type.                            |
     | 4     | price       | 8.99                                        | Price of the book. Positive decimal, max two decimal places.                |
@@ -193,20 +195,20 @@ This document provides information about the Bookstore API Documentation, allowi
     ```json
     {
     "id": 3,
-    "title": "The Catcher in the Rye",
-    "author": "J.D. Salinger",
-    "genre": "Fiction",
-    "price": 8.99,
-    "stock": 25,
-    "description": "A story about a young man’s journey of self-discovery.",
-    "cover_image": "https://example.com/images/catcher.jpg"
+    "title": "The Problem of Increasing Human Energy Book by Nikola Tesla",
+    "author": "Nikola Tesla",
+    "genre": "Non-Fiction",
+    "price": 19.95,
+    "stock": 15,
+    "description": "A major focus is on using the sun's power for industrial and societal needs, a concept ahead of its time.",
+    "cover_image": "[https://example.com/images/catcher.jpg](https://www.amazon.com/Problem-Increasing-Human-Energy-Harnessing/dp/1605200956#:~:text=Part%20philosophical%20ponderings%20on%20humanity's,unsung%20hero%20of%20scientific%20philosophy.)"
     }
     ```
 
     | Sr No | Key         | Value                                       | Description                                                                 |
     |-------|-------------|---------------------------------------------|-----------------------------------------------------------------------------|
     | 1     | id          | 3                                           | Unique identifier for the book. Must be a positive integer.                 |
-    | 2     | title       | The Catcher in the Rye                      | Title of the book. Max 255 characters.                                      |
+    | 2     | title       | The Problem of Increasing Human Energy Book by Nikola Tesla | Title of the book. Max 255 characters.                                      |
     | 3     | author      | J.D. Salinger                               | Author’s name. Max 100 characters.                                          |
     | 4     | genre       | Fiction                                     | Genre of the book. Should be a valid genre type.                            |
     | 5     | price       | 8.99                                        | Price of the book. Positive decimal, max two decimal places.                |
