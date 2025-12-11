@@ -169,7 +169,7 @@ This document provides information about the Bookstore API Documentation, allowi
     "title": "The Problem of Increasing Human Energy
 Book by Nikola Tesla
 ",
-    "author": "Nikola Tesl",
+    "author": "Nikola Tesla",
     "genre": "Non-Fiction",
     "price": 19.95,
     "stock": 10,
