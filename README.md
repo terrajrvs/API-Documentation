@@ -184,7 +184,7 @@ Book by Nikola Tesla
     | Sr No | Key         | Value                                       | Description                                                                 |
     |-------|-------------|---------------------------------------------|-----------------------------------------------------------------------------|
     | 1     | title       | The Problem of Increasing Human Energy Book by Nikola Tesla  | Title of the book. Max 255 characters.                                      |
-    | 2     | author      | J.D. Salinger                               | Author’s name. Max 100 characters.                                          |
+    | 2     | author      | Nikola Tesla                               | Author’s name. Max 100 characters.                                          |
     | 3     | genre       | Fiction                                     | Genre of the book. Should be a valid genre type.                            |
     | 4     | price       | 8.99                                        | Price of the book. Positive decimal, max two decimal places.                |
     | 5     | stock       | 25                                          | Stock quantity. Must be a non-negative integer.                             |
@@ -209,7 +209,7 @@ Book by Nikola Tesla
     |-------|-------------|---------------------------------------------|-----------------------------------------------------------------------------|
     | 1     | id          | 3                                           | Unique identifier for the book. Must be a positive integer.                 |
     | 2     | title       | The Problem of Increasing Human Energy Book by Nikola Tesla | Title of the book. Max 255 characters.                                      |
-    | 3     | author      | J.D. Salinger                               | Author’s name. Max 100 characters.                                          |
+    | 3     | author      | Nikola Tesla                               | Author’s name. Max 100 characters.                                          |
     | 4     | genre       | Fiction                                     | Genre of the book. Should be a valid genre type.                            |
     | 5     | price       | 8.99                                        | Price of the book. Positive decimal, max two decimal places.                |
 
